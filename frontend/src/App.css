@@ -83,3 +83,61 @@
 	transform: translateY(0);
 	box-shadow: none;
 }
+
+.fm-form {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 16px;
+	align-items: center;
+}
+
+.fm-input {
+	padding: 6px 10px;
+	border: 1px solid #bdbdbd;
+	border-radius: 4px;
+	font-size: 1rem;
+	background: #fafafa;
+	transition: border 0.2s;
+}
+
+.fm-input:focus {
+	border: 1.5px solid #1976d2;
+	outline: none;
+}
+
+.fm-btn {
+	padding: 6px 16px;
+	background: #1976d2;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.fm-btn:hover {
+	background: #1565c0;
+}
+
+.fm-delete {
+	background: #e53935;
+	margin-left: 10px;
+}
+
+.fm-delete:hover {
+	background: #b71c1c;
+}
+
+.fm-list-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 6px;
+}
+
+.fm-uploading {
+	color: #1976d2;
+	margin-left: 10px;
+	font-size: 0.95em;
+}
