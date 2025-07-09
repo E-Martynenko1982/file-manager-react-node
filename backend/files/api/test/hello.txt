@@ -1,0 +1,20 @@
+.file-manager {
+  font-family: 'Roboto', sans-serif; /* Використовуємо Roboto або будь-який інший сучасний шрифт */
+  max-width: 800px; /* Обмежте ширину для кращої читабельності */
+  margin: 40px auto; /* Центруємо компонент на сторінці */
+  padding: 25px;
+  background-color: #f8f9fa; /* Світлий фон */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* М'яка тінь для об'єму */
+}
+
+/* Відображення поточного шляху */
+.current-level {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #343a40; /* Темний текст */
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e9ecef; /* Роздільник */
+  text-align: center;
+}
